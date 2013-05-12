@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Metrophobic);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
 
 body { font-size:14px; font-weight:normal; font-style:normal; line-height: 1.5; background:#ffffff; word-wrap: break-word; margin: 0; padding: 0; border: 0; outline: 0;border-top:10px solid;  }
@@ -46,7 +47,7 @@ img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
 
 /* Fonts */
 
-body,input, textarea, select, a.button, fieldset legend { font-family: "PT Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+body,input, textarea, select, a.button, fieldset legend { font-family: "Metrophobic", "PT Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /* Downloads - Documentation */
 
@@ -118,7 +119,7 @@ text-shadow: 1px 1px 0px #fff; }
 
 /* Footer */
 
-#footer { clear: both; padding: 20px 0; border-top: 1px solid; font-size: .9em; }
+#footer { text-align: center; clear: both; padding: 20px 0; border-top: 1px solid #d6d6d6; color:#7F7F7F;font-size:12px; }
 
 #credits { text-align: center; }
 
@@ -234,6 +235,11 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 #wrap #sidebar-first, #wrap #sidebar-second { float:left; }
 
 #sidebar-first .block, #sidebar-second .block { padding: 0 0 20px 0; }
+
+/* Boxed content (only in sidebars) */
+#wrap #sidebar-first .box, #wrap #sidebar-second .box 
+     {text-align:left;padding:17px 20px;margin-bottom:30px;font-size:12px;line-height:24px;border:1px solid #E7E7E7;}
+     h4 {text-align:center;color:#808080;background: url(../images/hr-dotted.gif) bottom center repeat-x;margin:0px 40px 15px 40px;padding:0;padding-bottom:10px;font: 'Metrophobic',normal 22px georgia, sans-serif;}
 
 /* Messages */
 

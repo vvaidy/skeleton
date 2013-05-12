@@ -186,38 +186,27 @@
         <?php endif; ?>
         
 	</div>
-        
+		
 	<div id="footer" >
-        <div class="container" class="sixteen columns clearfix">
-        	<div class="sixteen columns clearfix">
-        
-                <div class="one_third">
+	  <div class="container" class="sixteen columns clearfix">
+            <div class="sixteen columns clearfix">
+              <div class="one_third">
                 <?php if ($page['footer_first']): ?><?php print render($page['footer_first']); ?><?php endif; ?>
-                </div>
+              </div>
                 
-                <div class="one_third">
+              <div class="one_third">
                 <?php if ($page['footer_second']): ?><?php print render($page['footer_second']); ?><?php endif; ?>
-                </div>
+              </div>
                 
-                <div class="one_third last">
+              <div class="one_third last">
                 <?php if ($page['footer_third']): ?><?php print render($page['footer_third']); ?><?php endif; ?>
-                </div>
+              </div>
         
-                <div class="clear"></div>
-                
-                <?php if ($page['footer']): print render($page['footer']); endif; ?>
-                
-                <div class="clear"></div>
-                
-                <div id="credits">
-                <?php print(date('Y') . ' ');?>
-                <?php if (!empty($site_name)):?>
-                <?php print $site_name;?>- This is a Free Drupal Theme<br/>
-                <?php endif;?>
-                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
-                </div>
-        	</div>
-        </div>
-    </div>
+              <div class="clear"></div>
+              <?php if ($page['footer']): print render($page['footer']); endif; ?>
+	      <div class="clear"></div>
+	    </div>
+          </div>
+        </div> <!-- footer -->
     
 </div> <!-- /#wrap -->

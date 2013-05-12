@@ -20,6 +20,14 @@ function skeletontheme_process_html(&$variables) {
 }
 
 /**
+ * Disable the RSS Feed icon tht shows up everywhere!
+ */
+
+function skeletontheme_feed_icon($url) {
+  return null;
+}
+
+/**
  * Override or insert variables into the page template.
  */
 function skeletontheme_process_page(&$variables) {

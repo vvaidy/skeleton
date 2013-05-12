@@ -1,6 +1,6 @@
 
 name = skl8
-description = skl8 is based on Skeleton: a powerful, clean, responsive theme ported to Drupal by <a href="http://www.morethanthemes.com/" target="_blank">More Than (just) Themes</a>.
+description = skl8 is based on Skeleton: a powerful, clean, responsive theme ported to Drupal by <a href="http://www.morethanthemes.com/" target="_blank">More Than (just) Themes</a>, and then hacked by Vijay
 version = VERSION
 core = 7.x
 
